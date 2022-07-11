@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", async (e) => {
       const usuarioInfo = doc.data();
 
       usuarioContenido.innerHTML += `
-      <div class="card card-body mt-2 border-danger"> 
+      <div class="card card-body mt-2 border-primary"> 
         <h5 class="h4">Cédula de Identidad: ${usuarioInfo.ci}</h4>
         <p>Nombres: ${usuarioInfo.nombre}</p>
         <p>Apellidos: ${usuarioInfo.apellido}</p>
